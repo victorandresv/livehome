@@ -1,0 +1,416 @@
+{
+	"samplers" :
+	{
+		"Sampler_9" :
+		{
+			"min" : "anisotropic",
+			"mag" : "anisotropic",
+			"mip" : "anisotropic",
+			"u" : "wrap",
+			"v" : "wrap",
+			"w" : "clamp",
+			"miplodbias" : 0,
+			"max_anisotropic" : 16,
+			"compare_function" : "disabled",
+			"border" :[1, 1, 1, 1],
+			"min_lod" : -3.40282e+38,
+			"max_lod" : 3.40282e+38
+		}
+	},
+
+	"macroblocks" :
+	{
+		"Macroblock_0" :
+		{
+			"scissor_test" : false,
+			"depth_clamp" : false,
+			"depth_check" : true,
+			"depth_write" : true,
+			"depth_function" : "less_equal",
+			"depth_bias_constant" : 0,
+			"depth_bias_slope_scale" : 0,
+			"cull_mode" : "clockwise",
+			"polygon_mode" : "solid"
+		}
+	},
+
+	"blendblocks" :
+	{
+		"Blendblock_0" :
+		{
+			"alpha_to_coverage" : false,
+			"blendmask" : "rgba",
+			"separate_blend" : false,
+			"src_blend_factor" : "one",
+			"dst_blend_factor" : "zero",
+			"blend_operation" : "add"
+		}
+	},
+
+	"pbs" : 
+	{
+
+		"{ffd02521-78ba-5f4d-a1b1-64384e55ea43}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Environment/Grass 04\"",
+			"li3d_flags" : 1,
+			"li3d_texscale" : [0.333333, 0.333333],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.452829, 0.5184, 0.00467776],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Environment/grass14_1urE6pT087Huhx20G3XxL1.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [3, 0, 0, -1],
+				"1" : [0, 3, 0, -1]
+			}
+		},
+
+		"{cfba7baa-1169-3b45-9d77-4f8224eaf9c4}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Environment/Concrete\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1, 1],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.962765, 0.962829, 1],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Environment/concrete_{d067c572-5a60-744f-a9ca-4b6b81a6b580}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{4d66e374-5bbe-e54a-9309-92995545fe2e}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Environment/Terra Original\"",
+			"li3d_flags" : 1,
+			"li3d_texscale" : [0.333333, 0.333333],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.7569, 0.66485, 0.483505],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Environment/terra_04_2ZR3uBOzOQGB$LEh_ItSic.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Environment/Terra Original_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "Environment/Terra Original_Roughness.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [3, 0, 0, -1],
+				"1" : [0, 3, 0, -1]
+			}
+		},
+
+		"{6ea97e2d-867d-714d-80b5-b8885ce48512}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Environment/Grass Base\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.28, 1.28],
+			"li3d_texscale" : [0.333333, 0.333333],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.311083, 0.36, 0.108027],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Environment/grass13_3wF$2aHKQOJPOABvFH$n_A.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [3, 0, 0, -1],
+				"1" : [0, 3, 0, -1]
+			}
+		},
+
+		"{77731b07-5544-d040-8f3a-e7e7be2250fa}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Environment/Ground01\"",
+			"li3d_flags" : 1,
+			"li3d_texscale" : [0.298745, 0.298745],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 1, 1],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Environment/grnd02L_{9789a1c0-25dd-fd40-8504-bf44700a7520}.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [3.34734, 0, 0, -1.17367],
+				"1" : [0, 3.34734, 0, -1.17367]
+			}
+		},
+
+		"{062e2b72-c150-4e41-abb4-8e870732e31f}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Environment/Grass Lawn\"",
+			"li3d_flags" : 1,
+			"li3d_texscale" : [0.333333, 0.333333],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.7537, 0.7744, 0.624171],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Environment/lawn2_3fOKaifM0zIemLzAA3FybB.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Environment/Grass Lawn_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "Environment/Grass Lawn_Roughness.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [3, 0, 0, -1],
+				"1" : [0, 3, 0, -1]
+			}
+		},
+
+		"{d2f87022-545b-6548-a83a-bd0252e1575c}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Environment/Terra Brown\"",
+			"li3d_flags" : 1,
+			"li3d_texscale" : [0.333333, 0.333333],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.7744, 0.770315, 0.54434],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Environment/terra_03_2sYQBoDJ4JJgzDmHfh9yG2.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [3, 0, 0, -1],
+				"1" : [0, 3, 0, -1]
+			}
+		},
+
+		"{29e6f174-2afc-c247-ae8c-001db126cfff}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Environment/Sea\"",
+			"li3d_flags" : 5,
+			"li3d_tilesize" : [10.24, 10.24],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.996253, 0.955338],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Environment/Sea_Base.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Environment/Sea_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "Environment/Sea_Roughness.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		}
+	}
+}

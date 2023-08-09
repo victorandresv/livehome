@@ -1,0 +1,626 @@
+{
+	"samplers" :
+	{
+		"Sampler_9" :
+		{
+			"min" : "anisotropic",
+			"mag" : "anisotropic",
+			"mip" : "anisotropic",
+			"u" : "wrap",
+			"v" : "wrap",
+			"w" : "clamp",
+			"miplodbias" : 0,
+			"max_anisotropic" : 16,
+			"compare_function" : "disabled",
+			"border" :[1, 1, 1, 1],
+			"min_lod" : -3.40282e+38,
+			"max_lod" : 3.40282e+38
+		}
+	},
+
+	"macroblocks" :
+	{
+		"Macroblock_0" :
+		{
+			"scissor_test" : false,
+			"depth_clamp" : false,
+			"depth_check" : true,
+			"depth_write" : true,
+			"depth_function" : "less_equal",
+			"depth_bias_constant" : 0,
+			"depth_bias_slope_scale" : 0,
+			"cull_mode" : "clockwise",
+			"polygon_mode" : "solid"
+		}
+	},
+
+	"blendblocks" :
+	{
+		"Blendblock_0" :
+		{
+			"alpha_to_coverage" : false,
+			"blendmask" : "rgba",
+			"separate_blend" : false,
+			"src_blend_factor" : "one",
+			"dst_blend_factor" : "zero",
+			"blend_operation" : "add"
+		}
+	},
+
+	"pbs" : 
+	{
+
+		"{68fc6406-d33c-144f-959a-bbc58b897a32}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wood/017 Pastel Pear\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.28, 1.28],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.7056, 0.63119, 0.487695],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Wood/Pear-Pastel.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Wood/017 Pastel Pear_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{70180472-f022-5b44-b946-e771d0c98a23}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wood/Wood Planks 7\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1, 1],
+			"li3d_texrotate" : 180,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.958949, 0.942143],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Wood/Wood-tex_{58ee02a8-1688-ed49-8781-0d93e51ca7d0}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [-1, 8.74228e-08, 0, 1],
+				"1" : [-8.74228e-08, -1, 0, 1]
+			}
+		},
+
+		"{c41e4be1-2fb6-e94c-8ebe-4ae7a1700204}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wood/038 Togo Red-tree\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.28, 1.28],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.118497, 0.0505501],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Wood/Read-tree-Togo.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{cb01b47f-41f8-8041-b7a0-e489eb70ca14}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wood/Wood_surface02\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [2, 1.5],
+			"li3d_texscale" : [0.5, 0.5],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.771564, 0.204158],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Wood/wood13L_{4bf34f90-470d-7048-8515-95000d2875c8}.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Wood/Wood_surface02_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [2, 0, 0, -0.5],
+				"1" : [0, 2, 0, -0.5]
+			}
+		},
+
+		"{aff33d8b-20c8-6545-ab7e-7bd022d90dd6}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wood/014 Dark Nut\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [2.56, 2.56],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.7921, 0.25339, 0.105927],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Wood/Nut-Dark.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{f7fcbbc6-2a81-5247-872f-efe125acdef0}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wood/008 Vild Cherry\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.28, 1.28],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.625344, 0.135228],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Wood/Cherry-Vild.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Wood/008 Vild Cherry_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{6f8be880-c59e-0f45-bafb-1f88b250ea05}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wood/Rattan 5\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [0.5, 0.5],
+			"li3d_texrotate" : 180,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.6241, 0.543081, 0.470558],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Wood/Rattan_5_{2205f478-b6a3-6746-ba1d-dff8d31cad18}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Wood/Rattan 5_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [-1, 8.74228e-08, 0, 1],
+				"1" : [-8.74228e-08, -1, 0, 1]
+			}
+		},
+
+		"{d824b3b5-c65d-ca46-919c-126f3da85941}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wood/029 Pile Pine 1\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.28, 1.28],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.96752, 0.954806],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Wood/Wood_Yellow_{dc5601db-bad6-7c4d-870b-c9e033e62245}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Wood/029 Pile Pine_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{84091aa5-d9b6-1244-99db-1c8afe3384ab}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wood/Wood Planks 1\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1, 1],
+			"li3d_texscale" : [2, 2],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.884289, 0.76263],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Wood/99fc48a8_{d5647f55-97a8-4748-8627-e05ebc7c6910}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Wood/Wood Planks 1_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [0.5, 0, 0, 0.25],
+				"1" : [0, 0.5, 0, 0.25]
+			}
+		},
+
+		"{0f700c7a-a82f-cc45-b55c-69df351b3c12}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wood/005 Mountain Beech\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.28, 1.28],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.624638, 0.549275, 0.341546],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Wood/Beech-Mountain.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Wood/005 Mountain Beech_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{719f769f-3595-2e42-9ffa-4ef36a1c1fd1}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wood/011 Dark Apple-tree\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.28, 1.28],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.6084, 0.334113, 0],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Wood/Apple-Dark.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Wood/011 Dark Apple-tree_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{eaac05ef-604d-0e45-baea-4624cd28293d}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wood/018 Nice Pear\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [2.56, 2.56],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.701642, 0.680808],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Wood/Pear-biyuty.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Wood/018 Nice Pear_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		}
+	}
+}

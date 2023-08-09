@@ -1,0 +1,200 @@
+{
+
+	"macroblocks" :
+	{
+		"Macroblock_0" :
+		{
+			"scissor_test" : false,
+			"depth_clamp" : false,
+			"depth_check" : true,
+			"depth_write" : true,
+			"depth_function" : "less_equal",
+			"depth_bias_constant" : 0,
+			"depth_bias_slope_scale" : 0,
+			"cull_mode" : "clockwise",
+			"polygon_mode" : "solid"
+		}
+	},
+
+	"blendblocks" :
+	{
+		"Blendblock_0" :
+		{
+			"alpha_to_coverage" : false,
+			"blendmask" : "rgba",
+			"separate_blend" : false,
+			"src_blend_factor" : "one",
+			"dst_blend_factor" : "zero",
+			"blend_operation" : "add"
+		}
+	},
+
+	"pbs" : 
+	{
+
+		"{606be289-e36f-be4e-92d2-bc96bebee327}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Glossy paint/9004 signal black\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"diffuse" :
+			{
+				"value" : [0.0134491, 0.0105393, 0.0143627],
+				"background" : [1, 1, 1, 1]
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 0.6
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{9c16d0bc-deb6-2b47-8a82-61dc8ba46a59}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Glossy paint/1001 beige\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"diffuse" :
+			{
+				"value" : [1, 0.715913, 0.38435],
+				"background" : [1, 1, 1, 1]
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 0.6
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{d4c8b71e-b8e6-e943-b587-d80a7be391f7}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Glossy paint/7035 light grey\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"diffuse" :
+			{
+				"value" : [0.944881, 1, 0.971786],
+				"background" : [1, 1, 1, 1]
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 0.6
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{43837d93-ba66-2345-ab95-29fa66f0dda2}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Glossy paint/7022 umbra grey\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"diffuse" :
+			{
+				"value" : [0.0624148, 0.0592694, 0.0533604],
+				"background" : [1, 1, 1, 1]
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 0.6
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{e079455c-0a9a-8342-b37e-7bd19f9d3391}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Glossy paint/9011 graphite black\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"diffuse" :
+			{
+				"value" : [0.00495943, 0.00802193, 0.0324],
+				"background" : [1, 1, 1, 1]
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 0.6
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		}
+	}
+}

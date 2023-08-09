@@ -1,0 +1,319 @@
+{
+	"samplers" :
+	{
+		"Sampler_9" :
+		{
+			"min" : "anisotropic",
+			"mag" : "anisotropic",
+			"mip" : "anisotropic",
+			"u" : "wrap",
+			"v" : "wrap",
+			"w" : "clamp",
+			"miplodbias" : 0,
+			"max_anisotropic" : 16,
+			"compare_function" : "disabled",
+			"border" :[1, 1, 1, 1],
+			"min_lod" : -3.40282e+38,
+			"max_lod" : 3.40282e+38
+		}
+	},
+
+	"macroblocks" :
+	{
+		"Macroblock_0" :
+		{
+			"scissor_test" : false,
+			"depth_clamp" : false,
+			"depth_check" : true,
+			"depth_write" : true,
+			"depth_function" : "less_equal",
+			"depth_bias_constant" : 0,
+			"depth_bias_slope_scale" : 0,
+			"cull_mode" : "clockwise",
+			"polygon_mode" : "solid"
+		}
+	},
+
+	"blendblocks" :
+	{
+		"Blendblock_0" :
+		{
+			"alpha_to_coverage" : false,
+			"blendmask" : "rgba",
+			"separate_blend" : false,
+			"src_blend_factor" : "one",
+			"dst_blend_factor" : "zero",
+			"blend_operation" : "add"
+		},
+		"Blendblock_4" :
+		{
+			"alpha_to_coverage" : true,
+			"blendmask" : "rgba",
+			"separate_blend" : false,
+			"src_blend_factor" : "one",
+			"dst_blend_factor" : "zero",
+			"blend_operation" : "add"
+		}
+	},
+
+	"pbs" : 
+	{
+
+		"{caec4b2e-8f7d-f246-b353-6437abc79db5}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : ["Blendblock_4", "Blendblock_0"],
+			"alpha_test" : ["greater_equal", 0.5, false],
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Trees&Bushes/fFlower14\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"diffuse" :
+			{
+				"value" : [0.81, 0.81, 0.81],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Trees&Bushes/Untitled_5__ddf33117_02f8_8e4a_90b4_335b682bcee3_.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{a0d4cebc-7087-5542-b4b7-f8d991ae252d}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : ["Blendblock_4", "Blendblock_0"],
+			"alpha_test" : ["greater_equal", 0.5, false],
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Trees&Bushes/fFlower13\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"diffuse" :
+			{
+				"value" : [0.81, 0.81, 0.81],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Trees&Bushes/Flower11__71bdcc05_ad9b_5840_a885_2c8bef6378b1_.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{f1a8ceb7-1b87-eb47-a319-44538ca6239d}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : ["Blendblock_4", "Blendblock_0"],
+			"alpha_test" : ["greater_equal", 0.5, false],
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Trees&Bushes/Grass1\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"diffuse" :
+			{
+				"value" : [0.81, 0.81, 0.81],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Trees&Bushes/Grass1__c80657e1_c487_9243_b306_f9f7cd71c8c6_.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{d23766cd-93d2-b142-a7b7-b294f244b952}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Trees&Bushes/Tree13\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 1, 1],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Trees&Bushes/Bark7__7724a078_2cb1_604d_8056_657f7ee53129_.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{58e056ef-cc6a-5846-ad10-e0bf1de22955}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : ["Blendblock_4", "Blendblock_0"],
+			"alpha_test" : ["greater_equal", 0.5, false],
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Trees&Bushes/Fern1\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"diffuse" :
+			{
+				"value" : [0.81, 0.81, 0.81],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Trees&Bushes/Untitled_2__98e9f542_abee_6248_b5ad_9a972ff63242_.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{692138db-142d-f346-968e-81d092c9ba4d}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : ["Blendblock_4", "Blendblock_0"],
+			"alpha_test" : ["greater_equal", 0.5, false],
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Trees&Bushes/Tree12\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"diffuse" :
+			{
+				"value" : [0.81, 0.81, 0.81],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Trees&Bushes/Branch9__11c2dfeb_acfb_dd4b_8a1f_ef21016bd195_.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{89cfa89b-95ec-9343-93ba-bbafa0f21d79}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : ["Blendblock_4", "Blendblock_0"],
+			"alpha_test" : ["greater_equal", 0.5, false],
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Trees&Bushes/Grass2\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"diffuse" :
+			{
+				"value" : [0.81, 0.81, 0.81],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Trees&Bushes/Grass2__06c57340_901d_9a41_9973_fe53fad5d143_.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		}
+	}
+}

@@ -1,0 +1,308 @@
+{
+	"samplers" :
+	{
+		"Sampler_9" :
+		{
+			"min" : "anisotropic",
+			"mag" : "anisotropic",
+			"mip" : "anisotropic",
+			"u" : "wrap",
+			"v" : "wrap",
+			"w" : "clamp",
+			"miplodbias" : 0,
+			"max_anisotropic" : 16,
+			"compare_function" : "disabled",
+			"border" :[1, 1, 1, 1],
+			"min_lod" : -3.40282e+38,
+			"max_lod" : 3.40282e+38
+		}
+	},
+
+	"macroblocks" :
+	{
+		"Macroblock_0" :
+		{
+			"scissor_test" : false,
+			"depth_clamp" : false,
+			"depth_check" : true,
+			"depth_write" : true,
+			"depth_function" : "less_equal",
+			"depth_bias_constant" : 0,
+			"depth_bias_slope_scale" : 0,
+			"cull_mode" : "clockwise",
+			"polygon_mode" : "solid"
+		}
+	},
+
+	"blendblocks" :
+	{
+		"Blendblock_0" :
+		{
+			"alpha_to_coverage" : false,
+			"blendmask" : "rgba",
+			"separate_blend" : false,
+			"src_blend_factor" : "one",
+			"dst_blend_factor" : "zero",
+			"blend_operation" : "add"
+		}
+	},
+
+	"pbs" : 
+	{
+
+		"{a7c3e0fc-afdd-a143-bdaa-6037e0b8f9ca}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Laminate Floor/Laminate 10\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1, 1],
+			"li3d_texrotate" : 180,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.927964, 0.897063],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Laminate/Wood-tex_{92a93071-3f02-3b4b-a3a1-a21b9fdcfb70}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/Laminate 10_Normals.png",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/Laminate 10_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [-1, 8.74228e-08, 0, 1],
+				"1" : [-8.74228e-08, -1, 0, 1]
+			}
+		},
+
+		"{4940233f-0ebe-9e42-bdb1-abe90ffe8f08}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Laminate Floor/010 Nut\"",
+			"li3d_flags" : 1,
+			"li3d_texscale" : [0.5, 0.5],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.5041, 0.421816, 0.356556],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Laminate/oreh-lam.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/010 Nut_Normals.png",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/010 Nut_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [2, 0, 0, -0.5],
+				"1" : [0, 2, 0, -0.5]
+			}
+		},
+
+		"{114134f6-6bc9-3d4b-aa56-5c5cf864b9fe}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Laminate Floor/Laminate 7\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1, 0.8],
+			"li3d_texscale" : [0.6, 0.6],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.927554, 0.918233],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Laminate/Laminate_6_{aab3e946-8de7-ef4f-a49e-2a6130382613}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/Laminate 6_Normals.png",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/Laminate 6_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1.66667, 0, 0, -0.333333],
+				"1" : [0, 1.66667, 0, -0.333333]
+			}
+		},
+
+		"{61c94cbf-d871-9141-910b-75e60dad6918}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Laminate Floor/Laminate 9\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1, 1],
+			"li3d_texrotate" : 180,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.880303, 0.83634],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Laminate/Wood-tex_{36e8c2fa-55b5-2149-8d12-c7a208171463}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/Laminate 9_Normals.png",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/Laminate 9_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [-1, 8.74228e-08, 0, 1],
+				"1" : [-8.74228e-08, -1, 0, 1]
+			}
+		},
+
+		"{72d6fe68-3e33-c34c-a279-f81088d87aea}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Laminate Floor/Laminate 5\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [2, 1.28],
+			"li3d_texscale" : [0.5, 0.5],
+			"li3d_texrotate" : 90,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.972953, 0.968602],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Laminate/Laminate_4_{e7b935aa-8994-2141-bc50-fe037db118dd}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/Laminate 5_Normals.png",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/Laminate 5_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [-8.74228e-08, -2, 0, 1.5],
+				"1" : [2, -8.74228e-08, 0, -0.5]
+			}
+		}
+	}
+}

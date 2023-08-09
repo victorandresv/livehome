@@ -1,0 +1,509 @@
+{
+	"samplers" :
+	{
+		"Sampler_9" :
+		{
+			"min" : "anisotropic",
+			"mag" : "anisotropic",
+			"mip" : "anisotropic",
+			"u" : "wrap",
+			"v" : "wrap",
+			"w" : "clamp",
+			"miplodbias" : 0,
+			"max_anisotropic" : 16,
+			"compare_function" : "disabled",
+			"border" :[1, 1, 1, 1],
+			"min_lod" : -3.40282e+38,
+			"max_lod" : 3.40282e+38
+		}
+	},
+
+	"macroblocks" :
+	{
+		"Macroblock_0" :
+		{
+			"scissor_test" : false,
+			"depth_clamp" : false,
+			"depth_check" : true,
+			"depth_write" : true,
+			"depth_function" : "less_equal",
+			"depth_bias_constant" : 0,
+			"depth_bias_slope_scale" : 0,
+			"cull_mode" : "clockwise",
+			"polygon_mode" : "solid"
+		}
+	},
+
+	"blendblocks" :
+	{
+		"Blendblock_0" :
+		{
+			"alpha_to_coverage" : false,
+			"blendmask" : "rgba",
+			"separate_blend" : false,
+			"src_blend_factor" : "one",
+			"dst_blend_factor" : "zero",
+			"blend_operation" : "add"
+		}
+	},
+
+	"pbs" : 
+	{
+
+		"{3163f1ab-4a79-1245-9901-bff7cbd1578a}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/007 Reef Ashlar\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [0.7, 0.7],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.442225, 0.399788, 0.386382],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/pub_kork01.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/007 Reef Ashlar_Normals.png",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 0.85,
+				"texture" : "brick/007 Reef Ashlar_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{2a257acc-8b6a-a14d-8962-40f1fb8a54ef}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/002 Old Baked Brick\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.88, 1.88],
+			"li3d_texscale" : [0.25, 0.25],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.5776, 0.247737, 0.164748],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/Bricks_Red.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/002_Old_Baked_Brick_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 0.8,
+				"texture" : "brick/002_Old_Baked_Brick_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [4, 0, 0, -1.5],
+				"1" : [0, 4, 0, -1.5]
+			}
+		},
+
+		"{2852f198-0aad-e149-9e58-3146453bc753}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/Brick01\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.345, 1.035],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.987603, 0.901487],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/brck01L_{b32f8008-046a-6645-bea4-33dc20c6ecd8}.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/Brick01_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 0.85,
+				"texture" : "brick/Brick01_Roughness.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{42aab2c8-f88b-af43-b391-059f80248b75}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/011 Grey Brickwork\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.9, 1.9],
+			"li3d_texscale" : [0.5, 0.5],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.99664, 0.981369, 1],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/Bricks_Ancient2.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/011_Grey_Brickwork_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 0.8,
+				"texture" : "brick/011_Grey_Brickwork_Roughness.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [2, 0, 0, -0.5],
+				"1" : [0, 2, 0, -0.5]
+			}
+		},
+
+		"{09ffb3cb-8338-7e49-afeb-1f9fbfa0ebc2}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/br1\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [3.748, 2.5],
+			"li3d_texscale" : [0.372454, 0.372454],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.967509, 0.875845],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/flag18L_{20a2b7c6-6411-8a4c-a8f1-448d7e65e112}.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/br1_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 0.8,
+				"texture" : "brick/br1_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [2.6849, 0, 0, -0.842448],
+				"1" : [0, 2.6849, 0, -0.842448]
+			}
+		},
+
+		"{aad33980-e051-d14b-af18-d1f4c2dd2f82}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/br21\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.2, 1.74844],
+			"li3d_texscale" : [0.5, 0.5],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 1, 1],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/brck88L_{9ac57100-3763-df4e-b7aa-abb68c9c3f2b}.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/br21_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 0.85,
+				"texture" : "brick/br21_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [2, 0, 0, -0.5],
+				"1" : [0, 2, 0, -0.5]
+			}
+		},
+
+		"{7aab4d66-75f4-6743-bfdb-e7d72898935b}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/001 Baked Brick\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.78, 1.78],
+			"li3d_texscale" : [0.25, 0.25],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.453027, 0.183014],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/Bricks_Red-n.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/001_Baked_Brick_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 0.85,
+				"texture" : "brick/001_Baked_Brick_Roughness.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [4, 0, 0, -1.5],
+				"1" : [0, 4, 0, -1.5]
+			}
+		},
+
+		"{a476ca45-5346-9f45-b098-0fd3e15f763c}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/020 Red Rock Masonry\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [0.64, 0.64],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.6561, 0.508198, 0.380162],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/roock02br.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/019 Old Masonry_Normals.png",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 0.85,
+				"texture" : "brick/019 Old Masonry_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{919f8c22-a585-7e45-b06f-4a38e544d34e}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/012 Violet Brickwork\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.9, 1.9],
+			"li3d_texscale" : [0.5, 0.5],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.995604, 0.900074, 1],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/Bricks_Ancient.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/011_Grey_Brickwork_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 0.85,
+				"texture" : "brick/011_Grey_Brickwork_Roughness.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [2, 0, 0, -0.5],
+				"1" : [0, 2, 0, -0.5]
+			}
+		}
+	}
+}

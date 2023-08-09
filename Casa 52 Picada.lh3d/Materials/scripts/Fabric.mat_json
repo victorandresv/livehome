@@ -1,0 +1,350 @@
+{
+	"samplers" :
+	{
+		"Sampler_9" :
+		{
+			"min" : "anisotropic",
+			"mag" : "anisotropic",
+			"mip" : "anisotropic",
+			"u" : "wrap",
+			"v" : "wrap",
+			"w" : "clamp",
+			"miplodbias" : 0,
+			"max_anisotropic" : 16,
+			"compare_function" : "disabled",
+			"border" :[1, 1, 1, 1],
+			"min_lod" : -3.40282e+38,
+			"max_lod" : 3.40282e+38
+		}
+	},
+
+	"macroblocks" :
+	{
+		"Macroblock_0" :
+		{
+			"scissor_test" : false,
+			"depth_clamp" : false,
+			"depth_check" : true,
+			"depth_write" : true,
+			"depth_function" : "less_equal",
+			"depth_bias_constant" : 0,
+			"depth_bias_slope_scale" : 0,
+			"cull_mode" : "clockwise",
+			"polygon_mode" : "solid"
+		}
+	},
+
+	"blendblocks" :
+	{
+		"Blendblock_0" :
+		{
+			"alpha_to_coverage" : false,
+			"blendmask" : "rgba",
+			"separate_blend" : false,
+			"src_blend_factor" : "one",
+			"dst_blend_factor" : "zero",
+			"blend_operation" : "add"
+		}
+	},
+
+	"pbs" : 
+	{
+
+		"{78052dba-c7fa-8348-a077-b8e86648fabc}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Fabric/59_Blue Leaves\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.603693, 0.95935, 0.999954],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Fabric/fabric_blue_silk_0P4vIDrQt4GetClYqigCd_.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{7669e8ae-f04c-4943-85a3-095f8beb505a}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Fabric/Flax 4\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1, 1],
+			"li3d_texscale" : [0.75, 0.75],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.943615, 0.779156],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Fabric/fabric_4_{86cbcd84-e998-7a46-93c6-fb01007f911c}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [1.33333, 0, 0, -0.166667],
+				"1" : [0, 1.33333, 0, -0.166667]
+			}
+		},
+
+		"{840b4232-f287-b74c-b32c-2a6f36fce890}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Fabric/Flax 1\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1, 1],
+			"li3d_texscale" : [0.75, 0.75],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.890012, 0.971959],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Fabric/fabric_1_{84b43d2a-a829-654e-9f89-3ba9b482b146}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [1.33333, 0, 0, -0.166667],
+				"1" : [0, 1.33333, 0, -0.166667]
+			}
+		},
+
+		"{1f19c920-ce5a-3842-bb2a-e70101ab46c6}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Fabric/66_Grass Jeans\"",
+			"li3d_flags" : 1,
+			"li3d_texscale" : [0.464115, 0.464115],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.92554, 0.305594],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Fabric/fabric_green_jeans_0DiJQGGbyyIeMUX7FDJniH.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [2.15464, 0, 0, -0.577319],
+				"1" : [0, 2.15464, 0, -0.577319]
+			}
+		},
+
+		"{a6588431-b142-a84c-8cdf-c8c29f153c33}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Fabric/Flax 5\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1, 1],
+			"li3d_texscale" : [0.75, 0.75],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.962071, 0.812757],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Fabric/fabric_5_{8d78342a-28fc-ab49-9863-2eb235f7c1e2}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [1.33333, 0, 0, -0.166667],
+				"1" : [0, 1.33333, 0, -0.166667]
+			}
+		},
+
+		"{f2c433da-81ba-084e-802f-c032f00864aa}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Fabric/08_Red Wool\"",
+			"li3d_flags" : 1,
+			"li3d_texscale" : [0.25, 0.25],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.0874588, 8.83154e-05],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Fabric/4c_3Yt8FSPL1YHBwLtsoXWj0S.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [4, 0, 0, -1.5],
+				"1" : [0, 4, 0, -1.5]
+			}
+		},
+
+		"{283c9f89-e5b2-e545-b5a3-fece72df7508}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Fabric/Fabric 013\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [4, 4],
+			"li3d_texscale" : [0.333333, 0.333333],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 1, 1],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Fabric/stripe02M_{e4111d7d-bf5b-634e-b500-c34994d7ceaa}.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [3, 0, 0, -1],
+				"1" : [0, 3, 0, -1]
+			}
+		}
+	}
+}

@@ -1,0 +1,444 @@
+{
+	"samplers" :
+	{
+		"Sampler_9" :
+		{
+			"min" : "anisotropic",
+			"mag" : "anisotropic",
+			"mip" : "anisotropic",
+			"u" : "wrap",
+			"v" : "wrap",
+			"w" : "clamp",
+			"miplodbias" : 0,
+			"max_anisotropic" : 16,
+			"compare_function" : "disabled",
+			"border" :[1, 1, 1, 1],
+			"min_lod" : -3.40282e+38,
+			"max_lod" : 3.40282e+38
+		}
+	},
+
+	"macroblocks" :
+	{
+		"Macroblock_0" :
+		{
+			"scissor_test" : false,
+			"depth_clamp" : false,
+			"depth_check" : true,
+			"depth_write" : true,
+			"depth_function" : "less_equal",
+			"depth_bias_constant" : 0,
+			"depth_bias_slope_scale" : 0,
+			"cull_mode" : "clockwise",
+			"polygon_mode" : "solid"
+		}
+	},
+
+	"blendblocks" :
+	{
+		"Blendblock_0" :
+		{
+			"alpha_to_coverage" : false,
+			"blendmask" : "rgba",
+			"separate_blend" : false,
+			"src_blend_factor" : "one",
+			"dst_blend_factor" : "zero",
+			"blend_operation" : "add"
+		}
+	},
+
+	"pbs" : 
+	{
+
+		"{007af238-f904-bb4a-b6d5-cf0b5f10b59b}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/025 Blue Masonry\"",
+			"li3d_flags" : 1,
+			"li3d_texscale" : [0.5, 0.5],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.190863, 0.24309, 0.4489],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/Bricks_Structure.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/025_Blue_Masonry_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "brick/025_Blue_Masonry_Roughness.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [2, 0, 0, -0.5],
+				"1" : [0, 2, 0, -0.5]
+			}
+		},
+
+		"{3160ac65-8627-744c-a483-07c3252fedae}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/Brick 09\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [2.5, 2.5],
+			"li3d_texscale" : [0.5, 0.5],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.98885, 1, 0.999768],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/bricks_c_{152dcc55-8715-7240-964b-4a8675314ec0}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/Brick09_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [2, 0, 0, -0.5],
+				"1" : [0, 2, 0, -0.5]
+			}
+		},
+
+		"{2a257acc-8b6a-a14d-8962-40f1fb8a54ef}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/002 Old Baked Brick\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [2.56, 2.56],
+			"li3d_texscale" : [0.25, 0.25],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.5776, 0.247737, 0.164748],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/Bricks_Red.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/002_Old_Baked_Brick_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [4, 0, 0, -1.5],
+				"1" : [0, 4, 0, -1.5]
+			}
+		},
+
+		"{7aab4d66-75f4-6743-bfdb-e7d72898935b}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/001 Baked Brick\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [2.56, 2.56],
+			"li3d_texscale" : [0.25, 0.25],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.453027, 0.183014],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/Bricks_Red-n.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/001_Baked_Brick_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "brick/001_Baked_Brick_Roughness.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [4, 0, 0, -1.5],
+				"1" : [0, 4, 0, -1.5]
+			}
+		},
+
+		"{c7077458-fd36-f54e-9723-e2df4f9971ec}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/br8\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [2, 1.33398],
+			"li3d_texscale" : [0.467706, 0.467706],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 1, 1],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/cut57L_{b8281376-2b0f-094a-b6d4-c6222cb86836}.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/br8_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [2.1381, 0, 0, -0.569048],
+				"1" : [0, 2.1381, 0, -0.569048]
+			}
+		},
+
+		"{90aa728a-913d-9c45-a36a-eb6c90e7e31d}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/Stone 02\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [2, 1.33398],
+			"li3d_texscale" : [0.574654, 0.574654],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 1, 1],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/cut40L_{2feadf6e-f138-dd45-bcd9-2c96135a73c4}.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [1.74018, 0, 0, -0.370089],
+				"1" : [0, 1.74018, 0, -0.370089]
+			}
+		},
+
+		"{9847fcc3-3906-5444-ae96-9e8caa7515d1}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/Old Brickwork\"",
+			"li3d_flags" : 1,
+			"li3d_texscale" : [0.333333, 0.333333],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.81, 0.198573, 0.214175],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/Brick-old1.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/003 Light Adobe-work_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "brick/003 Light Adobe-work_Roughness.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [3, 0, 0, -1],
+				"1" : [0, 3, 0, -1]
+			}
+		},
+
+		"{c11b1d8b-ec6d-0345-b7e9-8a728d4b1096}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Brick/br2\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [4, 2.66797],
+			"li3d_texscale" : [0.372454, 0.372454],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 1, 1],
+				"background" : [1, 1, 1, 1],
+				"texture" : "brick/flag10L_{28afd496-6885-af4f-9d34-b0b760a5291c}.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "brick/br2_Normals.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1
+			},
+			"user_values" :
+			{
+				"0" : [2.6849, 0, 0, -0.842448],
+				"1" : [0, 2.6849, 0, -0.842448]
+			}
+		}
+	}
+}

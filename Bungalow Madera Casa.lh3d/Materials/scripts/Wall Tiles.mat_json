@@ -1,0 +1,155 @@
+{
+	"samplers" :
+	{
+		"Sampler_9" :
+		{
+			"min" : "anisotropic",
+			"mag" : "anisotropic",
+			"mip" : "anisotropic",
+			"u" : "wrap",
+			"v" : "wrap",
+			"w" : "clamp",
+			"miplodbias" : 0,
+			"max_anisotropic" : 16,
+			"compare_function" : "disabled",
+			"border" :[1, 1, 1, 1],
+			"min_lod" : -3.40282e+38,
+			"max_lod" : 3.40282e+38
+		}
+	},
+
+	"macroblocks" :
+	{
+		"Macroblock_0" :
+		{
+			"scissor_test" : false,
+			"depth_clamp" : false,
+			"depth_check" : true,
+			"depth_write" : true,
+			"depth_function" : "less_equal",
+			"depth_bias_constant" : 0,
+			"depth_bias_slope_scale" : 0,
+			"cull_mode" : "clockwise",
+			"polygon_mode" : "solid"
+		}
+	},
+
+	"blendblocks" :
+	{
+		"Blendblock_0" :
+		{
+			"alpha_to_coverage" : false,
+			"blendmask" : "rgba",
+			"separate_blend" : false,
+			"src_blend_factor" : "one",
+			"dst_blend_factor" : "zero",
+			"blend_operation" : "add"
+		}
+	},
+
+	"pbs" : 
+	{
+
+		"{46508080-55e6-054d-bed8-99346b7b2399}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wall Tiles/06_Kings tournament\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.28, 1.28],
+			"li3d_texscale" : [0.2, 0.2],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.971708, 0.869818],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Tiles/Wall_Tiles_06_0A4EfLd8uOJhJJ_fSDgbGk.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Tiles/06_Kings tournament_Normals.png",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "Tiles/06_Kings tournament_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [5, 0, 0, -2],
+				"1" : [0, 5, 0, -2]
+			}
+		},
+
+		"{cf3de1f9-0c70-c24f-bbd4-ecb5f3d7ed62}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Wall Tiles/09_Gothic Temple\"",
+			"li3d_flags" : 1,
+			"li3d_tilesize" : [1.28, 1.28],
+			"li3d_texscale" : [0.2, 0.2],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.821644, 0.696653],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Tiles/Wall_Tiles_09_1$U$$AKLlIGxkE7AURtAfG.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Tiles/01_Source Fire_Normals.png",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "Tiles/01_Source Fire_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [5, 0, 0, -2],
+				"1" : [0, 5, 0, -2]
+			}
+		}
+	}
+}

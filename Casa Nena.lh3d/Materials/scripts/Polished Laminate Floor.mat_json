@@ -1,0 +1,206 @@
+{
+	"samplers" :
+	{
+		"Sampler_9" :
+		{
+			"min" : "anisotropic",
+			"mag" : "anisotropic",
+			"mip" : "anisotropic",
+			"u" : "wrap",
+			"v" : "wrap",
+			"w" : "clamp",
+			"miplodbias" : 0,
+			"max_anisotropic" : 16,
+			"compare_function" : "disabled",
+			"border" :[1, 1, 1, 1],
+			"min_lod" : -3.40282e+38,
+			"max_lod" : 3.40282e+38
+		}
+	},
+
+	"macroblocks" :
+	{
+		"Macroblock_0" :
+		{
+			"scissor_test" : false,
+			"depth_clamp" : false,
+			"depth_check" : true,
+			"depth_write" : true,
+			"depth_function" : "less_equal",
+			"depth_bias_constant" : 0,
+			"depth_bias_slope_scale" : 0,
+			"cull_mode" : "clockwise",
+			"polygon_mode" : "solid"
+		}
+	},
+
+	"blendblocks" :
+	{
+		"Blendblock_0" :
+		{
+			"alpha_to_coverage" : false,
+			"blendmask" : "rgba",
+			"separate_blend" : false,
+			"src_blend_factor" : "one",
+			"dst_blend_factor" : "zero",
+			"blend_operation" : "add"
+		}
+	},
+
+	"pbs" : 
+	{
+
+		"{b10e2450-5c07-f141-8e7c-b4f6d35cfe83}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Polished Laminate Floor/Polished Laminate 5\"",
+			"li3d_flags" : 5,
+			"li3d_tilesize" : [2, 1.28],
+			"li3d_texscale" : [0.5, 0.5],
+			"li3d_texrotate" : 90,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.951247, 0.973212, 1],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Laminate/Laminate_4_{e7b935aa-8994-2141-bc50-fe037db118dd}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/Laminate 5_Normals.png",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/Laminate 5_Polished_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [-8.74228e-08, -2, 0, 1.5],
+				"1" : [2, -8.74228e-08, 0, -0.5]
+			}
+		},
+
+		"{1f942238-e3be-a741-bbe1-febee7eed216}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Polished Laminate Floor/Polished Laminate 7\"",
+			"li3d_flags" : 5,
+			"li3d_tilesize" : [1, 0.8],
+			"li3d_texscale" : [0.6, 0.6],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.863828, 0.910289, 1],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Laminate/Laminate_6_{aab3e946-8de7-ef4f-a49e-2a6130382613}.png",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/Laminate 6_Normals.png",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 0.3,
+				"texture" : "Laminate/Laminate 6_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [1.66667, 0, 0, -0.333333],
+				"1" : [0, 1.66667, 0, -0.333333]
+			}
+		},
+
+		"{535da77e-195a-1748-9ae5-c3895a2136dd}" :
+		{
+			"macroblock" : "Macroblock_0",
+			"blendblock" : "Blendblock_0",
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Polished Laminate Floor/011 Nut\"",
+			"li3d_flags" : 5,
+			"li3d_texscale" : [0.5, 0.5],
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 1,
+				"mode" : "None",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.561388, 0.773566, 0.81],
+				"background" : [1, 1, 1, 1],
+				"texture" : "Laminate/oreh-dark-lam.jpg",
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0
+			},
+			"normal" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/011 Nut_Normals.png",
+				"sampler" : "Sampler_9"
+			},
+			"roughness" :
+			{
+				"value" : 1,
+				"texture" : "Laminate/001 Birch_Polished_Roughness.png",
+				"sampler" : "Sampler_9"
+			},
+			"user_values" :
+			{
+				"0" : [2, 0, 0, -0.5],
+				"1" : [0, 2, 0, -0.5]
+			}
+		}
+	}
+}

@@ -1,0 +1,234 @@
+{
+	"samplers" :
+	{
+		"Sampler_9" :
+		{
+			"min" : "anisotropic",
+			"mag" : "anisotropic",
+			"mip" : "anisotropic",
+			"u" : "wrap",
+			"v" : "wrap",
+			"w" : "clamp",
+			"miplodbias" : 0,
+			"max_anisotropic" : 16,
+			"compare_function" : "disabled",
+			"border" :[1, 1, 1, 1],
+			"min_lod" : -3.40282e+38,
+			"max_lod" : 3.40282e+38
+		}
+	},
+
+	"macroblocks" :
+	{
+		"Macroblock_0" :
+		{
+			"scissor_test" : false,
+			"depth_clamp" : false,
+			"depth_check" : true,
+			"depth_write" : true,
+			"depth_function" : "less_equal",
+			"depth_bias_constant" : 0,
+			"depth_bias_slope_scale" : 0,
+			"cull_mode" : "clockwise",
+			"polygon_mode" : "solid"
+		},
+		"Macroblock_6" :
+		{
+			"scissor_test" : false,
+			"depth_clamp" : false,
+			"depth_check" : true,
+			"depth_write" : false,
+			"depth_function" : "less_equal",
+			"depth_bias_constant" : 0,
+			"depth_bias_slope_scale" : 0,
+			"cull_mode" : "clockwise",
+			"polygon_mode" : "solid"
+		}
+	},
+
+	"blendblocks" :
+	{
+		"Blendblock_0" :
+		{
+			"alpha_to_coverage" : false,
+			"blendmask" : "rgba",
+			"separate_blend" : false,
+			"src_blend_factor" : "one",
+			"dst_blend_factor" : "zero",
+			"blend_operation" : "add"
+		},
+		"Blendblock_5" :
+		{
+			"alpha_to_coverage" : false,
+			"blendmask" : "rgba",
+			"separate_blend" : false,
+			"src_blend_factor" : "one",
+			"dst_blend_factor" : "one_minus_src_alpha",
+			"blend_operation" : "add"
+		}
+	},
+
+	"pbs" : 
+	{
+
+		"{d0763340-729c-e640-8cf4-40b6336e83ee}" :
+		{
+			"macroblock" : "Macroblock_6",
+			"blendblock" : "Blendblock_5",
+			"alpha_test" : ["greater_equal", 0.5, true],
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Glass/Yellow\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 0.3,
+				"mode" : "Transparent",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.779197, 0.0527664],
+				"background" : [1, 1, 1, 0.3]
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0.35
+			},
+			"roughness" :
+			{
+				"value" : 0.1
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{e3c8bdb2-7982-d64e-a14a-c911684c3fa2}" :
+		{
+			"macroblock" : "Macroblock_6",
+			"blendblock" : "Blendblock_5",
+			"alpha_test" : ["greater_equal", 0.5, true],
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Glass/Light_blue\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 0.3,
+				"mode" : "Transparent",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0.47077, 0.968651, 0.986936],
+				"background" : [1, 1, 1, 0.3]
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0.35
+			},
+			"roughness" :
+			{
+				"value" : 0.1
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{662aa7f7-6ece-0845-b554-8df4e9f3d642}" :
+		{
+			"macroblock" : "Macroblock_6",
+			"blendblock" : "Blendblock_5",
+			"alpha_test" : ["greater_equal", 0.5, true],
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Glass/Beige\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 0.3,
+				"mode" : "Transparent",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [1, 0.897993, 0.749089],
+				"background" : [1, 1, 1, 0.3],
+				"sampler" : "Sampler_9"
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0.35
+			},
+			"roughness" :
+			{
+				"value" : 0.1
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		},
+
+		"{de94720a-93fd-ea49-957a-14d2e31349e7}" :
+		{
+			"macroblock" : ["Macroblock_6", "Macroblock_0"],
+			"blendblock" : ["Blendblock_5", "Blendblock_0"],
+			"shadow_const_bias" : 0.01,
+			"li3d_names" : "\"Glass/Tinted\"",
+			"li3d_flags" : 1,
+			"workflow" : "metallic",
+			"brdf" : "default_has_diffuse_fresnel",
+			"transparency" :
+			{
+				"value" : 0.8,
+				"mode" : "Transparent",
+				"use_alpha_from_textures" : false
+			},
+			"diffuse" :
+			{
+				"value" : [0, 0, 0],
+				"background" : [1, 1, 1, 1]
+			},
+			"specular" :
+			{
+				"value" : [1, 1, 1]
+			},
+			"metalness" :
+			{
+				"value" : 0.35
+			},
+			"roughness" :
+			{
+				"value" : 0.3
+			},
+			"user_values" :
+			{
+				"0" : [1, 0, 0, 0],
+				"1" : [0, 1, 0, 0]
+			}
+		}
+	}
+}
